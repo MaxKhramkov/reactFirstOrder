@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
+import Navbar from './Componets/layout/Navbar';
+import UsersU from './Componets/users/UsersU';
 import './App.css';
 
 class App extends Component {
   render() {
-    const name = 'Max Khramkov';
-    const age = 34;
 
     return (
-      <div className='App'>
-        <h1>Hello, {name} {age + 1}</h1>
+      <div className="App">
+        <Navbar />
+        <div className="container">
+          <UsersU />
+        </div>
       </div>
-    );
+    )
   }
 }
 

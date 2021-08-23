@@ -285,6 +285,10 @@ img {
   color: #fff;
 }
 
+i {
+  margin-right: 5px;
+}
+
 .btn-white,
 .bg-white,
 .badge-white,
@@ -344,6 +348,10 @@ table td {
 
 table th {
   background: var(--light-color);
+}
+
+h1 {
+  letter-spacing: 1.5px;
 }
 
 /* Navbar */
