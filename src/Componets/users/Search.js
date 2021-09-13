@@ -46,4 +46,4 @@ Search.propTypes = {
     setAlert: PropTypes.func.isRequired,
 }
 
-export default Search
+export default Search;
